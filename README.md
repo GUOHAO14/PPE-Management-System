@@ -15,38 +15,38 @@ Note: This repository is only intended solely for academic reference and persona
 ### B. Initial Inventory Creation
 After administrator registration is completed, user proceeds to the initial inventory creation phase. Our inventory management system has a total of five text files that users will have to create and insert values. Those files are categorized as either mandatory or optional to be filled up during this phase.
 **Mandatory**
-- ppe.txt
-- hospitals.txt
-- supplier.txt
+  - ppe.txt
+  - hospitals.txt
+  - supplier.txt
 **Optional**
-- distribution.txt
-- supply.txt
+  - distribution.txt
+  - supply.txt
 
 1. ppe.txt consists of four attributes:
- - Item code (primary key)
- - Item name
- - Current quantity
- - Supplier code
+  - Item code (primary key)
+  - Item name
+  - Current quantity
+  - Supplier code
 A minimum of six items (according to assignment’s requirement) alongside their attributes must be filled into ppe.txt to be considered setup complete for the file. The item name is unique and cannot repeat.
 
 2. hospital.txt consists of two attributes:
- - Hospital code (primary key)
- - Hospital name
+  - Hospital code (primary key)
+  - Hospital name
 A minimum of four unique hospitals alongside their attributes are required to be filled up by user initially into hospital.txt to be considered setup complete for the file. The hospital name is unique and cannot repeat.
 
 3. supplier.txt consists of three attributes:
- - Supplier code (primary key)
- - Supplier name
+  - Supplier code (primary key)
+  - Supplier name
 A minimum of four unique suppliers alongside their attributes are required to be filled up by user initially into supplier.txt to be considered setup complete for the file. The supplier’s name is unique and cannot repeat.
 
 4. distribution.txt consists of seven attributes:
- - Distribution code (primary key)
- - Item code
- - Hospital code
- - Distribution year
- - Distribution month
- - Distribution day
- - Distribution quantity
+  - Distribution code (primary key)
+  - Item code
+  - Hospital code
+  - Distribution year
+  - Distribution month
+  - Distribution day
+  - Distribution quantity
 As mentioned, user can choose to either enter data into distribution.txt or skip it during initial inventory creation.
 
 5. supply.txt consists of seven attributes:
@@ -62,9 +62,9 @@ As mentioned, user can choose to either enter data into supply.txt or skip it du
 
 ### C. System Booting
 1. With the assumptions from section A and B, the main system will only be launched with the following conditions:
- - controller.txt must exist and not empty.
- - A total of only four controllers are registered in the system and saved in controller.txt.
- - The three mandatory text files mentioned must exist, not empty, and complete with data according to minimum content requirements.
+  - controller.txt must exist and not empty.
+  - A total of only four controllers are registered in the system and saved in controller.txt.
+  - The three mandatory text files mentioned must exist, not empty, and complete with data according to minimum content requirements.
 
 2. Once the conditions above are fulfilled, main system will be booted.
 
@@ -105,17 +105,17 @@ As soon as the system boots successfully, user can start logging in to the syste
 
 ## G. Report Functionality
 1. Our system comprises three types of general reports to be printed out:
- i) PPE Distribution Report
- ii) PPE Supply Report
- iii) Overall Transaction Report (month specific)
+  i) PPE Distribution Report
+  ii) PPE Supply Report
+  iii) Overall Transaction Report (month specific)
 
 2. PPE Supply Report displays list of suppliers with the supply quantity for the PPE they supply.
- • File source: supplier.txt, ppe.txt and supply.txt.
+  • File source: supplier.txt, ppe.txt and supply.txt.
 
 3. PPE Distribution Report displays list of hospitals with the distribution quantity for every type of PPE.
- • File source: hospital.txt, ppe.txt, distribution.txt.
+  • File source: hospital.txt, ppe.txt, distribution.txt.
 
 4. Overall Transaction Report displays all distribution and supply transactions made within a specified month, which are then arranged according to the ascending order of the transaction date.
- • File source: distribution.txt, supply.txt.
+  • File source: distribution.txt, supply.txt.
 
 5. These reports serve as a summary or overview of the PPE inventory flow to ensure efficient monitoring and management of the inventory system.
