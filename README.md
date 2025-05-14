@@ -4,7 +4,6 @@ This Python project is an assignment for the Python programming module in semest
 Note: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.
 
 
-
 ## Project Assumptions (And How It Works)
 
 ### A. Controller/Administrator Registration 
