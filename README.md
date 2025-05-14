@@ -24,14 +24,14 @@ After administrator registration is completed, user proceeds to the initial inve
   - distribution.txt
   - supply.txt
 
-1. ppe.txt consists of four attributes:
-    - Item code (primary key)
-    - Item name
-    - Current quantity
-    - Supplier code
+**1. ppe.txt consists of four attributes:**
+  - Item code (primary key)
+  - Item name
+  - Current quantity
+  - Supplier code
 A minimum of six items (according to assignment’s requirement) alongside their attributes must be filled into ppe.txt to be considered setup complete for the file. The item name is unique and cannot repeat.
 
-2. hospital.txt consists of two attributes:
+**2. hospital.txt consists of two attributes:**
   - Hospital code (primary key)
   - Hospital name
 A minimum of four unique hospitals alongside their attributes are required to be filled up by user initially into hospital.txt to be considered setup complete for the file. The hospital name is unique and cannot repeat.
