@@ -14,6 +14,7 @@ Note: This repository is only intended solely for academic reference and persona
 
 ### B. Initial Inventory Creation
 After administrator registration is completed, user proceeds to the initial inventory creation phase. Our inventory management system has a total of five text files that users will have to create and insert values. Those files are categorized as either mandatory or optional to be filled up during this phase.
+
 **Mandatory**
   - ppe.txt
   - hospitals.txt
