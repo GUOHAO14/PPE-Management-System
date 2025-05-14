@@ -1,18 +1,18 @@
-# PPE Management System
+# PPE Management System - Overview
 This Python project is an assignment for the Python programming module in semester 3 of my diploma program at APU. Although being a very basic command-line program with no graphical user interface, it has served a crucial purpose of strengthening my understanding of programming concepts and fundamentals. 
 
 Note: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.
 
 
-## Project Assumptions (And How It Works)
+# Project Assumptions (And How It Works)
 
-### A. Controller/Administrator Registration 
+## A. Controller/Administrator Registration 
 1. User is required to conduct controller (administrator) registration during its first launch (assuming an empty system). Four controllers are required to complete the registration and move on to the next task. Therefore, the system will prompt the user for a set of administrator username and password for four times.
 2. Username input by user cannot be the same with other existing usernames.
 3. The credentials (username and password) of the registered controllers are then saved in a file named “controller.txt”.
 
 
-### B. Initial Inventory Creation
+## B. Initial Inventory Creation
 After administrator registration is completed, user proceeds to the initial inventory creation phase. Our inventory management system has a total of five text files that users will have to create and insert values. Those files are categorized as either mandatory or optional to be filled up during this phase.
 
 **Mandatory**
@@ -62,7 +62,7 @@ As mentioned, user can choose to either enter data into distribution.txt or skip
 As mentioned, user can choose to either enter data into supply.txt or skip it during initial inventory creation.
 
 
-### C. System Booting
+## C. System Booting
 1. With the assumptions from section A and B, the main system will only be launched with the following conditions:
   - controller.txt must exist and not empty.
   - A total of only four controllers are registered in the system and saved in controller.txt.
@@ -107,17 +107,17 @@ As soon as the system boots successfully, user can start logging in to the syste
 
 ## G. Report Functionality
 1. Our system comprises three types of general reports to be printed out:
-    i) PPE Distribution Report
-    ii) PPE Supply Report
-    iii) Overall Transaction Report (month specific)
+    i. PPE Distribution Report
+    ii. PPE Supply Report
+    iii. Overall Transaction Report (month specific)
 
 2. PPE Supply Report displays list of suppliers with the supply quantity for the PPE they supply.
-    • File source: supplier.txt, ppe.txt and supply.txt.
+    - File source: supplier.txt, ppe.txt and supply.txt.
 
 3. PPE Distribution Report displays list of hospitals with the distribution quantity for every type of PPE.
-    • File source: hospital.txt, ppe.txt, distribution.txt.
+    - File source: hospital.txt, ppe.txt, distribution.txt.
 
 4. Overall Transaction Report displays all distribution and supply transactions made within a specified month, which are then arranged according to the ascending order of the transaction date.
-    • File source: distribution.txt, supply.txt.
+    - File source: distribution.txt, supply.txt.
 
 5. These reports serve as a summary or overview of the PPE inventory flow to ensure efficient monitoring and management of the inventory system.
