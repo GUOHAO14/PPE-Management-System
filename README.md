@@ -1,9 +1,7 @@
 # PPE Management System - Overview
 This Python project is an assignment for the Python programming module in semester 3 of my diploma program at APU. Although being a very basic command-line program with no graphical user interface, it has served a crucial purpose of strengthening my understanding of programming concepts and fundamentals. 
 
-Note: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.
-
-
+*Important: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.*
 
 
 # Project Assumptions (And How It Works)
